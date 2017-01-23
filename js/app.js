@@ -61,7 +61,7 @@ Player.prototype.checkCollisions = function() {
     }
 };
 
-// reset the player when win
+// reset the player when winning
 Player.prototype.update = function() {
     if (this.y <= 0) {
         alert("You Win!");
@@ -102,10 +102,6 @@ var enemy3 = new Enemy(222, 230);
 var allEnemies = [enemy1, enemy2, enemy3];
 
 var player = new Player(200, 400);
-
-
-
-
 
 
 // This listens for key presses and sends the keys to your
